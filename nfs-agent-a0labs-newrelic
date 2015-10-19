@@ -30,7 +30,7 @@ class Config():
 
 	def __init__(self):
 		self.cp = ConfigParser.RawConfigParser()
-		self.cp.read('./agent-a0labs.cfg')
+		self.cp.read('/etc/newrelic/nfs-agent-a0labs.cfg')
 
 class Agent:
 	def update_postdata(self):
